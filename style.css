@@ -1,0 +1,114 @@
+.gradient-background {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+p{
+    font-weight: normal;
+    font-family: serif;
+}
+
+.studies .header{
+    display: block;
+    background-color: black;
+    height: 20vh;
+}
+
+.professional .header{
+    display: block;
+    background-color: #221F1F;
+    height: 20vh;
+}
+.personal .header{
+    display: block;
+    background-color: black;
+    height: 20vh;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.languages{
+    display: flex;
+    justify-content: center;
+}
+.languages img{
+    margin-left: 10vh;
+}
+.languages p{
+    padding-top: 3vh;
+    font-weight: bold;
+    font-size: 3vh
+}
+
+.body.professional{
+    padding: 0;
+    margin: 0;    
+}
+
+.professional .container-work{
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.professional .testronic {
+    font-size: 2vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 3vh;
+}
+
+.professional .Localization-Engineer{
+    grid-row: span 2;
+}
+
+.professional .Associate-lead{
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+.professional .LQA-tester{
+    grid-column: span 2;
+}
+
+@media (max-width: 766px){
+    .languages{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 10vh;
+    }
+    .languages img{
+        margin-left: 0;
+    }
+    .languages p{
+        padding-top: 0;
+        font-weight: bold;
+        font-size: 3vh
+    }
+    .professional .container-work{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1.5fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .personal .marketing img{
+        width: 40vh;
+    }
+}
+
+@media (max-width: 1400px){
+    .personal .marketing img{
+        width: 40vh;
+    }
+}

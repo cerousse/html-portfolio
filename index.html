@@ -3,43 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cedric's Resume</title>
+    <title> CV - Capstone project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"/>
 </head>
+
 <body>
-    <h1>Cute cat</h1>
-    <img src="cat.png" alt="cute kitty" height="50" width="50">
-    <h2>Summary</h2>
-    I am so good looking that you will be surprised how smart I am!
-    <hr>
-    <h2>Education</h2>
-    <ul><li>Targeting 20cm next to the litterbox</li></ul>
-    <hr>
-    <h2>Work Experience</h2>
-    <ul>
-        <li><h3>Home office</h3></li>
-        March 2018 - today
-        <ul>
-            <li>scratching chairs</li>
-            <li>early morning alarm clock</li>
-            <li>purring while cuddling</li>
-        </ul>
-        <li><h3>Stray office</h3></li>
-        <ul>
-            <li>hunting my own food</li>
-        </ul>
-    </ul>
-    <hr>
-    <h2>Skills</h2>
-    <ul>
-        <li>Cuddling:<span style="font-size:100%;color:yellow;">&starf;</span><span style="font-size:100%;color:yellow;">&starf;</span><span style="font-size:100%;color:yellow;">&starf;</span><span style="font-size:100%;color:yellow;">&starf;</span><span style="font-size:100%;color:yellow;">&starf;</span></li>
-        <li>Purring: <span style="font-size:100%;color:yellow;">&starf;</span><span style="font-size:100%;color:yellow;">&starf;</span><span style="font-size:100%;color:yellow;">&starf;</span><span style="font-size:100%;color:yellow;">&starf;</span></li>
-        <li>Behaving: <span style="font-size:100%;color:yellow;">&starf;</span></li>
-    </ul>
-    <hr>
-    <footer>
-        <small>
-            Copyright © 2024 Cute kitty, all rights reserved.
-        </small>
-      </footer>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="./public/studies.html" class="nav-link">My Studies</a></li>
+            <li class="nav-item"><a href="./public/professional.html" class="nav-link">My Experiences</a></li>
+            <li class="nav-item"><a href="./public/personal.html" class="nav-link">About me</a></li>
+          </ul>
+        </header>
+    </div>
+    <div class="container gradient-background col-xxl-8 px-4 py-5">
+      <div class="languages">
+          <img src="./images/logo-france.png" alt="french-flag-logo" style="width: 10vh; height:10vh;">
+          <p>Native</p>
+          <img src="./images/logo-england.png" alt="england-flag-logo" style="width: 10vh; height:10vh;">
+          <p>Fluent</p>
+          <img src="./images/logo-poland.png" alt="poland-flag-logo" style="width: 10vh; height:10vh;">
+          <p>Casual</p>
+      </div>
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/profile-picture.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                Wolverine's official stunt double
+                <p>When professionalism meets fun!</p>
+            </h1>
+            <p class="lead">
+                "<span style="font-weight: bold;">Chemistry Engineer</span> by school, <span style="font-weight: bold;">Data Manager</span> by work and <span style="font-weight: bold;">Webdeveloper</span> by Passion."</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a href="https://www.linkedin.com/in/cédric-rousseliere-128055100"></a></a>LinkedIn</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
 </body>
 </html>
